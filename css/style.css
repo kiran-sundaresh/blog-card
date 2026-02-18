@@ -31,19 +31,18 @@ body {
 }
 
 .card{
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   margin-left: auto;
   margin-right: auto;
   margin-top: 120px;
-  /* border: 2px solid black; */
   width: 340px;
   border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
 }
 img{
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
 }
 .main{
   padding: 24px 16px 24px 16px;
